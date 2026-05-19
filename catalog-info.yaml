@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: profile-api
+  description: a API to Data Profile
+  annotations:
+    github.com/project-slug: undefined/undefined
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/backend-team
