@@ -9,3 +9,5 @@ spec:
   type: service
   lifecycle: production
   owner: group:default/backend-team
+  consumesApis:
+    - users-api-rest
